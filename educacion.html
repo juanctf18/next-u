@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Curriculum Vitae</title>
+</head>
+<header>
+    <div>
+        <svg width="100" height="100" xmlns="http://www.w3.org/2000/svg">
+            <g>
+                <title>background</title>
+                <rect fill="#fff" id="canvas_background" height="102" width="102" y="-1" x="-1"/>
+                <g display="none" overflow="visible" y="0" x="0" height="100%" width="100%" id="canvasGrid">
+                <rect fill="url(#gridpattern)" stroke-width="0" y="0" x="0" height="100%" width="100%"/>
+                </g>
+            </g>
+            <g>
+                <title>Layer 1</title>
+                <text xml:space="preserve" text-anchor="start" font-family="Helvetica, Arial, sans-serif" font-size="100" id="svg_2" y="169.4375" x="172.5" stroke-width="0" stroke="#000" fill="#000000">JC</text>
+                <text xml:space="preserve" text-anchor="start" font-family="Helvetica, Arial, sans-serif" font-size="76" id="svg_3" y="76.4375" x="4.5" stroke-width="0" stroke="#000" fill="#000000">JC</text>
+            </g>
+        </svg>
+    </div>
+    <nav>
+        <ul>
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="educacion.html">Educación</a></li>
+            <li><a href="experiencia.html">Experiencia</a></li>
+        </ul>
+    </nav>
+</header>
+<body>
+    <section>
+        <h1>Hoja de vida</h1>
+    </section>
+    <section>
+        <h2>Datos personales</h2>
+        <h3>Nombre: Juan Carlos</h3>
+        <h3>Apellido: Tapias Flores</h3>
+        <h3>Fecha de nacimiento: 18/04/93</h3>
+        <h3>Lugar de nacimiento: Maracay, Venezuela</h3>
+    </section>
+    <section>
+        <h2>Educación</h2>
+        <table border="2">
+            <thead>
+                <tr>
+                    <th>Año</th>
+                    <th>Institución</th>
+                    <th>Lugar</th>
+                    <th>Culminación</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Primaria</td>
+                    <td>Escuela Básica Anibal Castillo</td>
+                    <td>Maracay</td>
+                    <td>2004</td>
+                </tr>
+                <tr>
+                    <td>Bachiderato</td>
+                    <td>U.E.P Instituto Escuela Maracay</td>
+                    <td>Maracay</td>
+                    <td>2009</td>
+                </tr>
+                <tr>
+                    <td>Universitaria</td>
+                    <td>Universidad Politécnica Territorial de Aragua</td>
+                    <td>La Victoria</td>
+                    <td>2013</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+    <section>
+        <h2>Agregar estudios</h2>
+        <form action="educacion.html">
+            <div>
+                <select name="anio" id="anio">
+                    <option value="2019">2019</option>
+                    <option value="2020">2020</option>
+                    <option value="2021">2021</option>
+                    <option value="2022">2022</option>
+                    <option value="2023">2023</option>
+                </select>
+            </div>
+            <div>
+                <input type="text" name="institucion" id="institucion" placeholder="Institución" required><br>
+            </div>
+            <div>
+                <textarea name="lugar" id="lugar" cols="30" rows="10"></textarea>
+            </div>
+            <div>
+                <input type="submit" value="Enviar">
+            </div>  
+        </form>
+    </section>
+</body>
+<footer>
+    <section>
+        <h2>Contácto</h2>
+        <hr>
+        <h3>Correo Eléctronico: juanctapias18@gmail.com</h3>
+        <h3>Télefono: +57 300 2964590</h3>
+        <hr>
+        <h2>Redes Sociales</h2>
+        <h3><a href="https://www.instagram.com/juan_tapias">Instagram</a></h3>
+    </section>
+</footer>
+</html>
